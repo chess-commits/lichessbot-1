@@ -1,9 +1,9 @@
-token: "pZn4vmDmYFRYmN7O"    # lichess OAuth2 Token
+token: "6PPa1b65LkS94MEP"    # lichess OAuth2 Token
 url: "https://lichess.org/"  # lichess base URL
 
 engine:                      # engine settings
   dir: "./engines/"          # dir containing engines, relative to this project
-  name: "sf"        # binary name of the engine to use
+  name: "stockfish.exe"        # binary name of the engine to use
   fairyname: "fsf"
   protocol: "uci"            # "uci" or "xboard"
   uci_ponder: true           # think on opponent time; only works if "protocol" is "uci"
