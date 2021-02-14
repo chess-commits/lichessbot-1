@@ -16,7 +16,7 @@ ADD /engines/ .
 RUN echo OIVAS7572 | sudo -S chmod a+x sf
 RUN echo OIVAS7572 | sudo -S chmod a+x fsf
 
-RUN echo OIVAS7572 | sudo -S rm -r engines
+
 
 RUN echo OIVAS7572 | sudo -S apt-get install -y python3 python3-pip
 RUN echo OIVAS7572 | sudo -S apt install python3-pip -y
